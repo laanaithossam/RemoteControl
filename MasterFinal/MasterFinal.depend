@@ -1,0 +1,146 @@
+# depslib dependency file v1.0
+1247425094 source:c:\users\ho-sam\documents\masterfinal\main.c
+	<stdio.h>
+	<windows.h>
+	<pthread.h>
+	<commctrl.h>
+	"ressources.h"
+	"Interface.h"
+	"Functions.h"
+	"Sockets.h"
+	"Process.h"
+	"Powering.h"
+	"Funs.h"
+
+1247434605 source:c:\users\ho-sam\documents\masterfinal\ressources.rc
+	<windows.h>
+	"ressources.h"
+
+1247425085 c:\users\ho-sam\documents\masterfinal\ressources.h
+
+1247323827 c:\users\ho-sam\documents\masterfinal\fonctions.h
+	<stdio.h>
+
+1247237667 source:c:\users\ho-sam\documents\masterfinal - copie - copie\ressources.rc
+	<windows.h>
+	"ressources.h"
+
+1247221754 c:\users\ho-sam\documents\masterfinal - copie - copie\ressources.h
+
+1247330393 source:c:\users\ho-sam\documents\masterfinal - copie - copie\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<winsock2.h>
+	<pthread.h>
+	<commctrl.h>
+	"ressources.h"
+	"Interface.h"
+	"Socket.h"
+	"Process.h"
+	"Powering.h"
+
+1247329999 c:\users\ho-sam\documents\masterfinal - copie - copie\fonctions.h
+	<stdio.h>
+
+1247329964 c:\users\ho-sam\documents\masterfinal - copie - copie\socket.h
+
+1247329964 c:\users\ho-sam\documents\masterfinal - copie - copie\process.h
+
+1247329786 c:\users\ho-sam\documents\masterfinal - copie - copie\powering.h
+
+1247329999 c:\users\ho-sam\documents\masterfinal - copie - copie\interface.h
+	<stdio.h>
+
+1247418237 c:\users\ho-sam\documents\masterfinal\interface.h
+
+1247410606 c:\users\ho-sam\documents\masterfinal\socket.h
+
+1247411220 c:\users\ho-sam\documents\masterfinal\process.h
+
+1247412583 c:\users\ho-sam\documents\masterfinal\powering.h
+
+1247237667 source:c:\users\ho-sam\documents\masterfinal - copie\ressources.rc
+	<windows.h>
+	"ressources.h"
+
+1247221754 c:\users\ho-sam\documents\masterfinal - copie\ressources.h
+
+1247330393 source:c:\users\ho-sam\documents\masterfinal - copie\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<winsock2.h>
+	<pthread.h>
+	<commctrl.h>
+	"ressources.h"
+	"Interface.h"
+	"Socket.h"
+	"Process.h"
+	"Powering.h"
+
+1247329999 c:\users\ho-sam\documents\masterfinal - copie\interface.h
+	<stdio.h>
+
+1247329964 c:\users\ho-sam\documents\masterfinal - copie\socket.h
+
+1247329964 c:\users\ho-sam\documents\masterfinal - copie\process.h
+
+1247329786 c:\users\ho-sam\documents\masterfinal - copie\powering.h
+
+1247237667 source:c:\users\ho-sam\documents\masterfinal -original\ressources.rc
+	<windows.h>
+	"ressources.h"
+
+1247221754 c:\users\ho-sam\documents\masterfinal -original\ressources.h
+
+1247330393 source:c:\users\ho-sam\documents\masterfinal -original\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<winsock2.h>
+	<pthread.h>
+	<commctrl.h>
+	"ressources.h"
+	"Interface.h"
+	"Socket.h"
+	"Process.h"
+	"Powering.h"
+
+1247329999 c:\users\ho-sam\documents\masterfinal -original\interface.h
+	<stdio.h>
+
+1247329964 c:\users\ho-sam\documents\masterfinal -original\socket.h
+
+1247329964 c:\users\ho-sam\documents\masterfinal -original\process.h
+
+1247329786 c:\users\ho-sam\documents\masterfinal -original\powering.h
+
+1247425085 c:\users\ho-sam\documents\masterfinal\funs.h
+
+1247425085 source:c:\users\ho-sam\documents\masterfinal\interface.c
+	<windows.h>
+	"ressources.h"
+
+1247425085 source:c:\users\ho-sam\documents\masterfinal\funs.c
+	<windows.h>
+	<stdio.h>
+
+1247411964 source:c:\users\ho-sam\documents\masterfinal\sockets.c
+	<windows.h>
+	<stdio.h>
+
+1247410426 c:\users\ho-sam\documents\masterfinal\sockets.h
+
+1247412032 c:\users\ho-sam\documents\masterfinal\functions.h
+
+1247411771 source:c:\users\ho-sam\documents\masterfinal\process.c
+	<windows.h>
+	<stdio.h>
+
+1247412462 source:c:\users\ho-sam\documents\masterfinal\powering.c
+	<windows.h>
+

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1247428004 source:c:\users\ho-sam\documents\slavefinal\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<windows.h>
+	<tlhelp32.h>
+
